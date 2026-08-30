@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad | Marberry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --black: #0a0a0a;
+            --black-light: #111111;
+            --black-lighter: #1a1a1a;
+            --red: #e50914;
+            --red-dark: #b20710;
+            --gray: #2a2a2a;
+            --gray-light: #888;
+            --white: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--black);
+            color: var(--white);
+            line-height: 1.8;
+        }
+        header {
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(229, 9, 20, 0.2);
+            padding: 20px 0;
+        }
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .logo-icon {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--red), var(--red-dark));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+        .logo-text {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+            color: var(--white);
+        }
+        .logo-text span { color: var(--red); }
+        .back-btn {
+            background: transparent;
+            border: 2px solid var(--gray);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .back-btn:hover { border-color: var(--red); color: var(--red); }
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 30px;
+        }
+        .content h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .content h1 span { color: var(--red); }
+        .content .date {
+            color: var(--gray-light);
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+        .divider {
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--red), transparent);
+            margin: 20px 0 30px;
+            border-radius: 2px;
+        }
+        .content h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 18px;
+            margin: 35px 0 15px;
+            color: var(--red);
+        }
+        .content p {
+            color: #bbb;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+        .content ul {
+            margin: 15px 0 15px 25px;
+            color: #bbb;
+        }
+        .content ul li { margin-bottom: 10px; font-size: 15px; }
+        .highlight-box {
+            background: var(--black-lighter);
+            border: 1px solid var(--gray);
+            border-left: 4px solid var(--red);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .highlight-box p { margin: 0; color: #ccc; }
+        footer {
+            background: var(--black-light);
+            border-top: 1px solid var(--gray);
+            padding: 30px;
+            text-align: center;
+            color: var(--gray-light);
+            font-size: 13px;
+        }
+        footer a { color: var(--gray-light); text-decoration: none; margin: 0 10px; transition: color 0.3s; }
+        footer a:hover { color: var(--red); }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="logo-text">Mar<span>berry</span></div>
+            </a>
+            <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Volver al inicio</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <h1>Política de <span>Privacidad</span></h1>
+        <p class="date">Última actualización: Agosto 2026</p>
+        <div class="divider"></div>
+
+        <div class="highlight-box">
+            <p><i class="fas fa-shield-alt" style="color:var(--red);margin-right:8px;"></i> En Marberry valoramos tu privacidad. Esta política explica cómo manejamos la información que compartes con nosotros.</p>
+        </div>
+
+        <h2>1. Información que Recopilamos</h2>
+        <p>Para poder procesar tus pedidos y brindarte soporte, podemos recopilar la siguiente información:</p>
+        <ul>
+            <li><strong>Información de contacto:</strong> Nombre, correo electrónico, número de teléfono y país de residencia (solo si la proporcionas voluntariamente en el proceso de compra).</li>
+            <li><strong>Información del dispositivo:</strong> IMEI, modelo del teléfono, marca y cualquier dato técnico necesario para realizar el servicio contratado.</li>
+            <li><strong>Información de pago:</strong> No almacenamos datos bancarios ni de tarjetas de crédito. Los pagos se realizan directamente a través de Binance Pay o transferencia bancaria.</li>
+            <li><strong>Historial de pedidos:</strong> Registro de los productos y servicios que has adquirido con nosotros.</li>
+        </ul>
+
+        <h2>2. Cómo Utilizamos tu Información</h2>
+        <p>La información recopilada se utiliza exclusivamente para los siguientes fines:</p>
+        <ul>
+            <li>Procesar y entregar los servicios contratados.</li>
+            <li>Comunicarnos contigo sobre el estado de tu pedido.</li>
+            <li>Brindar soporte técnico post-venta.</li>
+            <li>Mejorar nuestros servicios y la experiencia del usuario.</li>
+        </ul>
+
+        <h2>3. Almacenamiento y Seguridad</h2>
+        <p>Tu información se almacena de forma segura y solo es accesible por el personal autorizado de Marberry. Implementamos medidas de seguridad técnicas y organizativas para proteger tus datos contra acceso no autorizado, pérdida o alteración.</p>
+        <p><strong>Importante:</strong> Los datos de IMEI y modelos de dispositivos se utilizan únicamente para la ejecución del servicio contratado y no se comparten con terceros.</p>
+
+        <h2>4. Compartir Información con Terceros</h2>
+        <p>Marberry <strong>no vende, alquila ni comparte</strong> tu información personal con terceros con fines comerciales. Solo podemos compartir datos en los siguientes casos:</p>
+        <ul>
+            <li>Cuando sea necesario para cumplir con una obligación legal.</li>
+            <li>Con proveedores de servicios que nos ayudan a operar (herramientas de comunicación, servidores), siempre bajo acuerdos de confidencialidad.</li>
+        </ul>
+
+        <h2>5. Uso de WhatsApp</h2>
+        <p>Utilizamos WhatsApp como canal principal de comunicación y para recibir pedidos. Al enviarnos un mensaje por WhatsApp, aceptas que podamos contactarte a través de esta plataforma para temas relacionados con tu pedido. No enviamos spam ni mensajes no solicitados.</p>
+
+        <h2>6. Cookies y Tecnologías Similares</h2>
+        <p>Nuestro sitio web no utiliza cookies de seguimiento ni recopila datos de navegación. El carrito de compras funciona completamente en el navegador del cliente (localStorage) sin enviar información a servidores externos.</p>
+
+        <h2>7. Tus Derechos</h2>
+        <p>Tienes derecho a:</p>
+        <ul>
+            <li>Acceder a la información personal que tenemos sobre ti.</li>
+            <li>Solicitar la corrección de datos inexactos.</li>
+            <li>Solicitar la eliminación de tus datos personales.</li>
+            <li>Oponerte al procesamiento de tus datos en determinadas circunstancias.</li>
+        </ul>
+        <p>Para ejercer cualquiera de estos derechos, contáctanos por WhatsApp al <strong>+52 56 5286 8721</strong>.</p>
+
+        <h2>8. Retención de Datos</h2>
+        <p>Conservamos tu información solo durante el tiempo necesario para cumplir con los fines descritos en esta política, o según lo requiera la ley aplicable. Los datos de pedidos completados se mantienen por un período razonable para fines de garantía y soporte.</p>
+
+        <h2>9. Cambios a esta Política</h2>
+        <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Cualquier cambio será publicado en esta página con la fecha de actualización correspondiente. Te recomendamos revisar esta política periódicamente.</p>
+
+        <h2>10. Contacto</h2>
+        <p>Si tienes preguntas, inquietudes o solicitudes relacionadas con esta Política de Privacidad, puedes contactarnos a través de:</p>
+        <ul>
+            <li><strong>WhatsApp:</strong> +52 56 5286 8721</li>
+            <li><strong>Horario de atención:</strong> 24/7</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p> Marberry. Todos los derechos reservados.</p>
+        <p style="margin-top:8px;">
+            <a href="index.html">Inicio</a> |
+            <a href="terminos.html">Términos y Condiciones</a>
+        </p>
+    </footer>
+</body>
+</html>
